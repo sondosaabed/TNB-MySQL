@@ -1,4 +1,4 @@
-# TNB-MySQL-
+# TNB-MySQL
 In this project I uploaded the MySQL code for the bank project.
 
 # TNB project link

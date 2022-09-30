@@ -1,6 +1,14 @@
 #drop database bank;
 create database bank;
 use bank;
+
+CREATE TABLE login(
+		username varchar(255) DEFAULT NULL ,
+		UNIQUE (username),
+		passwd varchar(255) DEFAULT NULL ,
+		user_ID int NOT NULL AUTO_INCREMENT,
+		PRIMARY KEY (user_ID) ); 
+				
 CREATE TABLE bank(
              bank_name varchar(255) DEFAULT NULL,
              Bank_ID int NOT NULL AUTO_INCREMENT,

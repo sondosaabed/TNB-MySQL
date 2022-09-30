@@ -3,6 +3,15 @@ use bank;
 insert into bank value ("TNB البنك الوطني",1234);
 select * from bank;
 
+INSERT INTO login (`username`, `passwd`) 
+VALUES ('sondos', SHA1('2222'));
+
+INSERT INTO login (`username`, `passwd`) 
+VALUES ('eman', SHA1('1111'));
+
+INSERT INTO login (`username`, `passwd`) 
+VALUES ('hoson', SHA1('3333'));
+
 insert into Address (address_id,Postal_code, Street_name, city_name)  value (1191000,123455,"Al-Ahli Hospitalt","Ramallah");
 insert into Address (address_id,Postal_code, Street_name, city_name)  value (1191001,123456,"Al-Mosel St","Ramallah");
 insert into Address (address_id,Postal_code, Street_name, city_name)  value (1191002,123457,"Nussaibeh St","Ramallah");
